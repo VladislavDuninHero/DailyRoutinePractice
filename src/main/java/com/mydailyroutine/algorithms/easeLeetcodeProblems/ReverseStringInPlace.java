@@ -1,4 +1,6 @@
-package com.mydailyroutine.algorithms;
+package com.mydailyroutine.algorithms.easeLeetcodeProblems;
+
+import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
 public class ReverseStringInPlace implements AlgosActionDispatcher {
     private String helloWorld = "helloWorld";

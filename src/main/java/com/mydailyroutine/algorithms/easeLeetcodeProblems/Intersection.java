@@ -1,4 +1,6 @@
-package com.mydailyroutine.algorithms;
+package com.mydailyroutine.algorithms.easeLeetcodeProblems;
+
+import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
 import java.util.*;
 
