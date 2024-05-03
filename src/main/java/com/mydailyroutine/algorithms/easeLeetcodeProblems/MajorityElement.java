@@ -7,6 +7,11 @@ import java.util.Map;
 
 public class MajorityElement implements AlgosActionDispatcher {
 
+    //Description:
+    //Given an array nums of size n, return the majority element.
+    //
+    //The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
     @Override
     public void execute() {
         int[] nums = {8, 8, 7, 7, 7};
