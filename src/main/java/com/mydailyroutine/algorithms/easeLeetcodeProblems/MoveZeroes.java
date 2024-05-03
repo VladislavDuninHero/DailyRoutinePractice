@@ -18,7 +18,7 @@ public class MoveZeroes implements AlgosActionDispatcher {
         System.out.println(Arrays.toString(nums));
     }
 
-    public void moveZeroes(int[] nums) {
+    private void moveZeroes(int[] nums) {
         if (nums.length == 1) {
             return;
         }
