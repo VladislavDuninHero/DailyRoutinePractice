@@ -17,7 +17,7 @@ public class ShuffleTheArray implements AlgosActionDispatcher {
         System.out.println(Arrays.toString(shuffle(arr, 3)));
     }
 
-    public int[] shuffle(int[] nums, int n) {
+    private int[] shuffle(int[] nums, int n) {
         int[] newArr = new int[nums.length];
 
         int left = 0;

@@ -15,7 +15,7 @@ public class Intersection implements AlgosActionDispatcher {
         System.out.println(Arrays.toString(result));
     }
 
-    public int[] intersection(int[] nums1, int[] nums2) {
+    private int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> numsSet = new HashSet<>();
         List<Integer> list = new ArrayList<>();
 

@@ -21,7 +21,7 @@ public class ConcatArrays implements AlgosActionDispatcher {
         System.out.println(Arrays.toString(result));
     }
 
-    public int[] getConcatenation(int[] nums) {
+    private int[] getConcatenation(int[] nums) {
 
         int newArrayLength = nums.length * 2;
         int[] newArr = new int[newArrayLength];

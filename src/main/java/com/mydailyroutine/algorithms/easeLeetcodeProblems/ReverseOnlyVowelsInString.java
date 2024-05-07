@@ -16,7 +16,7 @@ public class ReverseOnlyVowelsInString implements AlgosActionDispatcher {
     }
 
 
-    public String reverseVowels(String s) {
+    private String reverseVowels(String s) {
         List<String> vowels = new ArrayList<>();
         Collections.addAll(vowels, "a", "e", "u", "i", "o");
         String[] sArray = s.split("");
