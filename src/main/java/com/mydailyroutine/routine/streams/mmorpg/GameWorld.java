@@ -1,4 +1,4 @@
-package com.mydailyroutine.routine.streams;
+package com.mydailyroutine.routine.streams.mmorpg;
 
 import java.util.List;
 import java.util.Map;

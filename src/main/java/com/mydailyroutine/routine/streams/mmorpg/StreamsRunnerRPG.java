@@ -1,9 +1,8 @@
-package com.mydailyroutine.routine.streams;
+package com.mydailyroutine.routine.streams.mmorpg;
 
 import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class StreamsRunnerRPG {
     //    1. найти множество всех рас

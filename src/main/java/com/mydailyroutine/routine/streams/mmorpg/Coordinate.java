@@ -1,4 +1,4 @@
-package com.mydailyroutine.routine.streams;
+package com.mydailyroutine.routine.streams.mmorpg;
 
 public class Coordinate {
     private int x;
