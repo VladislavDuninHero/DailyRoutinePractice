@@ -24,4 +24,17 @@ public class BinaryTree {
 
         return min(root.left);
     }
+
+    public boolean find(BinaryTree root, int key) {
+        if (root == null || root.value == key) {
+            return root == null ? false : true;
+        }
+
+        if (key < root.value) {
+            return find(root.left, key);
+        } else {
+            return find(root.right, key);
+        }
+
+    }
 }
