@@ -25,6 +25,16 @@ public class BinaryTree {
         return min(root.left);
     }
 
+    public int max(BinaryTree root) {
+        int currentMax = root.value;
+
+        if (root.right == null) {
+            return currentMax;
+        }
+
+        return max(root.right);
+    }
+
     public boolean find(BinaryTree root, int key) {
         if (root == null || root.value == key) {
             return root == null ? false : true;

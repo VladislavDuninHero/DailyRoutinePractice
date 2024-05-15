@@ -11,6 +11,7 @@ public class Main {
                 new BinaryTree(40, new BinaryTree(38), new BinaryTree(52))));
 
         System.out.println(root.min(root));
+        System.out.println(root.max(root));
         System.out.println(root.find(root, 38));
     }
 }
