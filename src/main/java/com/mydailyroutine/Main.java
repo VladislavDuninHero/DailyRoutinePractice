@@ -1,6 +1,7 @@
 package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
+import com.mydailyroutine.algorithms.recursion.Recursion;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +14,5 @@ public class Main {
         System.out.println(root.min(root));
         System.out.println(root.max(root));
         System.out.println(root.find(root, 38));
-
     }
 }
