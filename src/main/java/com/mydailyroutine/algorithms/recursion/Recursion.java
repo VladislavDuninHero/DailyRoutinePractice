@@ -8,6 +8,7 @@ public class Recursion implements AlgosActionDispatcher {
     public void execute() {
         int[] nums = {1, 2, 3};
         String text = "Hello world!";
+        int[][] deepNums = {{1, 2}, {3, 4}, {5, 6}};
 
         loopRecursion(nums, 0);
         reverseStringWithRecursion(text.toCharArray(), 0);
@@ -32,6 +33,5 @@ public class Recursion implements AlgosActionDispatcher {
 
         System.out.println(text[key]);
     }
-
 
 }

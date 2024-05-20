@@ -1,4 +1,4 @@
-package com.mydailyroutine.algorithms;
+package com.mydailyroutine.algorithms.sorting;
 
 import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
