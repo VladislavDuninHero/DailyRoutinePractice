@@ -1,4 +1,4 @@
-package com.mydailyroutine.algorithms.easeLeetcodeProblems;
+package com.mydailyroutine.algorithms.mediumLeetcodeProblems;
 
 import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
