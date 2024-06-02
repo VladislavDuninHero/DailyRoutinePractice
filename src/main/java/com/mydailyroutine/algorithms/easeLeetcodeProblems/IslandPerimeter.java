@@ -23,7 +23,7 @@ public class IslandPerimeter implements AlgosActionDispatcher {
     }
 
     //Beats 98% of users submissions.
-    public int islandPerimeter(int[][] grid) {
+    private int islandPerimeter(int[][] grid) {
         int perimeter = 0;
 
         if (grid.length == 1 && grid[0].length == 1 && grid[0][0] == 1) {
