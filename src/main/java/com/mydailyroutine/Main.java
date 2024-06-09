@@ -1,7 +1,6 @@
 package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
-import com.mydailyroutine.algorithms.easeLeetcodeProblems.LastStoneWeight;
 
 public class Main {
     public static void main(String[] args) {
