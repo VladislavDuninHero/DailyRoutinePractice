@@ -7,8 +7,8 @@ public class Pizzeria {
         this.pizzaFactory = pizzaFactory;
     }
 
-    public Pizza run(PizzaType typeOfPizza) {
-        Pizza yourPizza = pizzaFactory.createPizza(typeOfPizza);
+    public Pizza run(int pizzasId) {
+        Pizza yourPizza = pizzaFactory.createPizza(pizzasId);
 
         return yourPizza;
     }
