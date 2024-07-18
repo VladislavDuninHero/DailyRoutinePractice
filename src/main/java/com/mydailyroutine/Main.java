@@ -1,7 +1,7 @@
 package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
-import com.mydailyroutine.algorithms.easeLeetcodeProblems.CreateTargetArrayInTheGivenOrder;
+import com.mydailyroutine.algorithms.easeLeetcodeProblems.FindLuckyIntegerInAnArray;
 
 public class Main {
     public static void main(String[] args) {
