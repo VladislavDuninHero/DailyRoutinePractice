@@ -47,27 +47,4 @@ public class FindLuckyIntegerInAnArray implements AlgosActionDispatcher {
 
         return maxKey;
     }
-
-//    private void fillStatistic(int[] arr, Map<Integer, Integer> statistic) {
-//        int head = 0;
-//        int tail = arr.length - 1;
-//        int counter = 0;
-//
-//        while (head < tail) {
-//            if (head == tail) {
-//                head++;
-//                tail = arr.length - 1;
-//
-//                if (arr[head] == counter) {
-//                    statistic.put(arr[head], counter);
-//                }
-//            }
-//
-//            if (arr[tail] == arr[head]) {
-//                counter++;
-//            }
-//
-//            tail--;
-//        }
-//    }
 }
