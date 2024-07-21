@@ -2,6 +2,7 @@ package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
 import com.mydailyroutine.algorithms.easeLeetcodeProblems.FindLuckyIntegerInAnArray;
+import com.mydailyroutine.algorithms.easeLeetcodeProblems.KidsWithTheGreatestNumberOfCandies;
 import com.mydailyroutine.algorithms.easeLeetcodeProblems.StringMatchingInArray;
 
 public class Main {
