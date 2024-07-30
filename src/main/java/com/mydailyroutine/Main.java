@@ -4,6 +4,7 @@ import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
 import com.mydailyroutine.algorithms.easeLeetcodeProblems.DesignParkingSystem;
 import com.mydailyroutine.algorithms.easeLeetcodeProblems.DestinationCity;
 import com.mydailyroutine.algorithms.easeLeetcodeProblems.NumberOfStudentsDoingHomeworkAtAGivenTime;
+import com.mydailyroutine.algorithms.easeLeetcodeProblems.RichestCustomerWealth;
 
 import java.util.List;
 
