@@ -1,10 +1,7 @@
 package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
-import com.mydailyroutine.algorithms.easeLeetcodeProblems.DesignParkingSystem;
-import com.mydailyroutine.algorithms.easeLeetcodeProblems.DestinationCity;
-import com.mydailyroutine.algorithms.easeLeetcodeProblems.NumberOfStudentsDoingHomeworkAtAGivenTime;
-import com.mydailyroutine.algorithms.easeLeetcodeProblems.RichestCustomerWealth;
+import com.mydailyroutine.algorithms.easeLeetcodeProblems.*;
 
 import java.util.List;
 
@@ -19,5 +16,8 @@ public class Main {
         System.out.println(root.min(root));
         System.out.println(root.max(root));
         System.out.println(root.find(root, 38));
+
+        CountTheNumberOfConsistentStrings countTheNumberOfConsistentStrings = new CountTheNumberOfConsistentStrings();
+        countTheNumberOfConsistentStrings.execute();
     }
 }
