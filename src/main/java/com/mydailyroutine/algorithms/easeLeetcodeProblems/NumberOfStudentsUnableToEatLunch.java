@@ -1,4 +1,11 @@
 package com.mydailyroutine.algorithms.easeLeetcodeProblems;
 
-public class NumberOfStudentsUnableToEatLunch {
+import com.mydailyroutine.algorithms.AlgosActionDispatcher;
+
+public class NumberOfStudentsUnableToEatLunch implements AlgosActionDispatcher {
+
+    @Override
+    public void execute() {
+
+    }
 }
