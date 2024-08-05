@@ -2,6 +2,8 @@ package com.mydailyroutine.algorithms.easeLeetcodeProblems;
 
 import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
+import java.util.*;
+
 public class NumberOfStudentsUnableToEatLunch implements AlgosActionDispatcher {
 
     @Override
@@ -15,7 +17,34 @@ public class NumberOfStudentsUnableToEatLunch implements AlgosActionDispatcher {
     }
 
     private int countStudents(int[] students, int[] sandwiches) {
+        int studentsCount = students.length;
+        int sandwichesCount = sandwiches.length;
 
-        return 0;
+        List<Integer> listOfStudents = new ArrayList<>();
+        List<Integer> listOfSandwiches = new ArrayList<>();
+
+        for (int i = 0; i < studentsCount; i++) {
+            listOfStudents.add(students[i]);
+        }
+
+        for (int i = 0; i < sandwichesCount; i++) {
+            listOfSandwiches.add(sandwiches[i]);
+        }
+
+        for (Integer sandwich : sandwiches) {
+            for (Integer student : students) {
+                if (Objects.equals(sandwich, student)) {
+                    listOfStudents.remove(student);
+                    listOfSandwiches.remove(sandwich);
+                    break;
+                }
+
+
+            }
+        }
+
+        System.out.println(listOfStudents);
+
+        return listOfStudents.size();
     }
 }
