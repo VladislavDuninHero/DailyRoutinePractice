@@ -17,7 +17,7 @@ public class Main {
         System.out.println(root.max(root));
         System.out.println(root.find(root, 38));
 
-        NumberOfStudentsUnableToEatLunch numberOfStudentsUnableToEatLunch = new NumberOfStudentsUnableToEatLunch();
-        numberOfStudentsUnableToEatLunch.execute();
+        CalculateMoneyInLeetcodeBank calculateMoneyInLeetcodeBank = new CalculateMoneyInLeetcodeBank();
+        calculateMoneyInLeetcodeBank.execute();
     }
 }

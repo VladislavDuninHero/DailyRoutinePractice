@@ -4,12 +4,40 @@ import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
 import java.util.*;
 
+//Description:
+//The school cafeteria offers circular and square sandwiches at lunch break, referred to by numbers 0 and 1 respectively. All students stand in a queue. Each student either prefers square or circular sandwiches.
+//
+//The number of sandwiches in the cafeteria is equal to the number of students. The sandwiches are placed in a stack. At each step:
+//
+//If the student at the front of the queue prefers the sandwich on the top of the stack, they will take it and leave the queue.
+//Otherwise, they will leave it and go to the queue's end.
+//This continues until none of the queue students want to take the top sandwich and are thus unable to eat.
+//
+//You are given two integer arrays students and sandwiches where sandwiches[i] is the type of the i​​​​​​th sandwich in the stack (i = 0 is the top of the stack) and students[j] is the preference of the j​​​​​​th student in the initial queue (j = 0 is the front of the queue). Return the number of students that are unable to eat.
+//
+//
+//
+//Example 1:
+//
+//Input: students = [1,1,0,0], sandwiches = [0,1,0,1]
+//Output: 0
+//Explanation:
+//- Front student leaves the top sandwich and returns to the end of the line making students = [1,0,0,1].
+//- Front student leaves the top sandwich and returns to the end of the line making students = [0,0,1,1].
+//- Front student takes the top sandwich and leaves the line making students = [0,1,1] and sandwiches = [1,0,1].
+//- Front student leaves the top sandwich and returns to the end of the line making students = [1,1,0].
+//- Front student takes the top sandwich and leaves the line making students = [1,0] and sandwiches = [0,1].
+//- Front student leaves the top sandwich and returns to the end of the line making students = [0,1].
+//- Front student takes the top sandwich and leaves the line making students = [1] and sandwiches = [1].
+//- Front student takes the top sandwich and leaves the line making students = [] and sandwiches = [].
+//Hence all students are able to eat.
+
 public class NumberOfStudentsUnableToEatLunch implements AlgosActionDispatcher {
 
     @Override
     public void execute() {
-        int[] students = {1, 1, 0, 0};
-        int[] sandwiches = {0, 1, 0, 1};
+        int[] students = {1, 1, 1, 0, 0, 1};
+        int[] sandwiches = {1, 0, 0, 0, 1, 1};
 
         int count = countStudents(students, sandwiches);
 
@@ -17,34 +45,28 @@ public class NumberOfStudentsUnableToEatLunch implements AlgosActionDispatcher {
     }
 
     private int countStudents(int[] students, int[] sandwiches) {
-        int studentsCount = students.length;
-        int sandwichesCount = sandwiches.length;
+        int studentWithCircularSandwiches = 0;
+        int studentWithSquareSandwiches = 0;
 
-        List<Integer> listOfStudents = new ArrayList<>();
-        List<Integer> listOfSandwiches = new ArrayList<>();
-
-        for (int i = 0; i < studentsCount; i++) {
-            listOfStudents.add(students[i]);
-        }
-
-        for (int i = 0; i < sandwichesCount; i++) {
-            listOfSandwiches.add(sandwiches[i]);
-        }
-
-        for (Integer sandwich : sandwiches) {
-            for (Integer student : students) {
-                if (Objects.equals(sandwich, student)) {
-                    listOfStudents.remove(student);
-                    listOfSandwiches.remove(sandwich);
-                    break;
-                }
-
-
+        for (int student : students) {
+            if (student == 1) {
+                studentWithSquareSandwiches++;
+            } else if (student == 0) {
+                studentWithCircularSandwiches++;
             }
         }
 
-        System.out.println(listOfStudents);
+        for (int sandwich : sandwiches) {
+            if (sandwich == 1 && studentWithSquareSandwiches > 0) {
+                studentWithSquareSandwiches--;
+            } else if (sandwich == 0 && studentWithCircularSandwiches > 0) {
+                studentWithCircularSandwiches--;
+            } else {
+                return studentWithSquareSandwiches + studentWithCircularSandwiches;
+            }
+        }
 
-        return listOfStudents.size();
+
+        return 0;
     }
 }
