@@ -31,9 +31,9 @@ public class CalculateMoneyInLeetcodeBank implements AlgosActionDispatcher {
     public void execute() {
         int n = 20;
 
-        int total = totalMoney(n);
+        int totalCount = totalMoney(n);
 
-        System.out.println(total);
+        System.out.println(totalCount);
     }
 
     private int totalMoney(int n) {
