@@ -1,6 +1,7 @@
 package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
+import com.mydailyroutine.algorithms.easeLeetcodeProblems.SortingTheSentence;
 import com.mydailyroutine.algorithms.easeLeetcodeProblems.SumOfUniqueElements;
 
 public class Main {
@@ -14,5 +15,8 @@ public class Main {
         System.out.println(root.min(root));
         System.out.println(root.max(root));
         System.out.println(root.find(root, 38));
+
+        SortingTheSentence sortingTheSentence = new SortingTheSentence();
+        sortingTheSentence.execute();
     }
 }
