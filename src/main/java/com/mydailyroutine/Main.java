@@ -15,8 +15,5 @@ public class Main {
         System.out.println(root.min(root));
         System.out.println(root.max(root));
         System.out.println(root.find(root, 38));
-
-        SortingTheSentence sortingTheSentence = new SortingTheSentence();
-        sortingTheSentence.execute();
     }
 }
