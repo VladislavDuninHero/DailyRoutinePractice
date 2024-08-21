@@ -34,6 +34,8 @@ public class TimeNeededToBuyTickets implements AlgosActionDispatcher {
         System.out.println(resultTime);
     }
 
+    //Runtime: beats 57%
+    //Memory: beats 31%
     private int timeRequiredToBuy(int[] tickets, int k) {
         int time = 0;
 
