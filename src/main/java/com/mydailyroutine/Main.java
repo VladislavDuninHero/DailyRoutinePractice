@@ -1,6 +1,7 @@
 package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
+import com.mydailyroutine.algorithms.easeLeetcodeProblems.MissingNumber;
 import com.mydailyroutine.algorithms.easeLeetcodeProblems.ValidAnagram;
 
 public class Main {
@@ -11,8 +12,6 @@ public class Main {
                         new BinaryTree(31, new BinaryTree(28), null),
                 new BinaryTree(40, new BinaryTree(38), new BinaryTree(52))));
 
-        System.out.println(root.min(root));
-        System.out.println(root.max(root));
-        System.out.println(root.find(root, 38));
+        System.out.println(root);
     }
 }
