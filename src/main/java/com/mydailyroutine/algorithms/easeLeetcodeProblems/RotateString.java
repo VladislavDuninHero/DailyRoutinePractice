@@ -18,8 +18,6 @@ public class RotateString implements AlgosActionDispatcher {
 
         String[] splitString = goal.split("");
 
-        StringBuilder builder = new StringBuilder();
-
         for (int i = 0; i < splitString.length; i++) {
 
             String temp = splitString[0];
