@@ -20,8 +20,6 @@ public class MaximumNumberOfBalloons implements AlgosActionDispatcher {
     private int maxNumberOfBalloons(String text) {
         String balloon = "balloon";
 
-        Map<String, Integer> balloonsStatistic = new HashMap<>();
-
         return 0;
     }
 }
