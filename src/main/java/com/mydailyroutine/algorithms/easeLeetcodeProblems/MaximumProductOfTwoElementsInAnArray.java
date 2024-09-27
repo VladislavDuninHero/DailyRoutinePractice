@@ -22,8 +22,8 @@ public class MaximumProductOfTwoElementsInAnArray implements AlgosActionDispatch
         System.out.println(maximumProduct);
     }
 
-    //Runtime: beats 20% of other solutions.
-    //Memory: beats 79% of other solutions.
+    //Runtime: beat 20% of other solutions.
+    //Memory: beat 79% of other solutions.
     private int maxProduct(int[] nums) {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
