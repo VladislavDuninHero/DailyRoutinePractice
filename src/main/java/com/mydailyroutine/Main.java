@@ -9,7 +9,5 @@ public class Main {
                 new BinaryTree(35,
                         new BinaryTree(31, new BinaryTree(28), null),
                 new BinaryTree(40, new BinaryTree(38), new BinaryTree(52))));
-
-        System.out.println(root);
     }
 }
