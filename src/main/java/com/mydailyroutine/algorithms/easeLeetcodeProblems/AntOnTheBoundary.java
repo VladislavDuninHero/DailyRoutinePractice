@@ -52,5 +52,4 @@ public class AntOnTheBoundary implements AlgosActionDispatcher {
 
         return boundaryCount;
     }
-
 }
