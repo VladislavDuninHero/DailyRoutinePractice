@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //Description:
+//Link: https://leetcode.com/problems/find-the-number-of-winning-players/submissions/1448840353/
 //You are given an integer n representing the number of players in a game and a 2D array pick where pick[i] = [xi, yi] represents that the player xi picked a ball of color yi.
 //
 //Player i wins the game if they pick strictly more than i balls of the same color. In other words,
