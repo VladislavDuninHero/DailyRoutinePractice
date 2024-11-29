@@ -98,7 +98,6 @@ public class DeleteNodeInALinkedList implements AlgosActionDispatcher {
         ListNode current = head;
 
         while (current != null) {
-            System.out.println(current.val);
             current = current.next;
         }
     }
