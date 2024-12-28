@@ -47,8 +47,6 @@ public class TopKFrequentElements implements AlgosActionDispatcher {
 
         listForSort.sort((a, b) -> b.getValue() - a.getValue());
 
-        System.out.println(listForSort);
-
         for (int i = 0; i < k; i++) {
             topFrequentNums[i] = listForSort.get(i).getKey();
         }
