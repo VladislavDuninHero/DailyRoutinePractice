@@ -12,7 +12,6 @@ public class CopyFilesInDirectory implements RoutineActionDispatcher {
         Scanner scanner = new Scanner(System.in);
         Path sourceDirectory = Path.of(scanner.nextLine());
         Path targetDirectory = Path.of(scanner.nextLine());
-        //напишите тут ваш код
 
         try (
                 DirectoryStream<Path> stream = Files.newDirectoryStream(sourceDirectory);
