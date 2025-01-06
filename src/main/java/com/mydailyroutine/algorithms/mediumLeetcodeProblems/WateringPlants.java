@@ -16,7 +16,6 @@ import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 //Given a 0-indexed integer array plants of n integers, where plants[i] is the amount of water the ith plant needs, and an integer capacity representing the watering can capacity, return the number of steps needed to water all the plants.
 //
 //
-//
 //Example 1:
 //
 //Input: plants = [2,2,3,3], capacity = 5
