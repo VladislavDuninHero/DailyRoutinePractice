@@ -2,7 +2,8 @@ package com.mydailyroutine.algorithms.easeLeetcodeProblems;
 
 import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 //Description:
 //A distinct string is a string that is present only once in an array.

@@ -2,7 +2,8 @@ package com.mydailyroutine.algorithms.easeLeetcodeProblems;
 
 import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 public class ContainsDuplicate implements AlgosActionDispatcher {
 

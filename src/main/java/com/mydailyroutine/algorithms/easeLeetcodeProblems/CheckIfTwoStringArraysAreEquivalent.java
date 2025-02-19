@@ -2,8 +2,6 @@ package com.mydailyroutine.algorithms.easeLeetcodeProblems;
 
 import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
-import java.util.Arrays;
-
 //Description:
 //Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
 //

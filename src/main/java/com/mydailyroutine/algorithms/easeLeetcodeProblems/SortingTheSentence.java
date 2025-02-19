@@ -2,7 +2,8 @@ package com.mydailyroutine.algorithms.easeLeetcodeProblems;
 
 import com.mydailyroutine.algorithms.AlgosActionDispatcher;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 //Description:
 //A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each word consists of lowercase and uppercase English letters.
