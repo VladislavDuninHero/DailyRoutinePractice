@@ -41,7 +41,7 @@ public class DesignBrowserHistory {
         }
 
         int index = history.indexOf(currentPage) + steps;
-        currentPage = index > 0 ? history.get(history.size() - 1) : homePage;
+        currentPage = index > 0 ? history.get(index) : homePage;
 
         return currentPage;
     }
