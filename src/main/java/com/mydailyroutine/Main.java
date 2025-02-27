@@ -1,7 +1,6 @@
 package com.mydailyroutine;
 
 import com.mydailyroutine.algorithms.binaryTree.BinaryTree;
-import com.mydailyroutine.algorithms.mediumLeetcodeProblems.browser.MainBrowserHistory;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +18,5 @@ public class Main {
                         )
                 );
 
-        MainBrowserHistory mainBrowserHistory = new MainBrowserHistory();
-        mainBrowserHistory.execute();
     }
 }
